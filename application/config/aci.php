@@ -1,11 +1,8 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $config['aci_status'] = array (
-<<<<<<< HEAD
+
   'installED' => true,#初始安装，请在这里修改
-=======
-  'systemVersion' => '1.0.0',
-  'installED' => false,
->>>>>>> refs/remotes/hubinjie/master
+
 );
 $config['aci_module'] = array (
   'welcome' =>
@@ -408,7 +405,7 @@ $config['aci_module'] = array (
       ),
     ),
   ),
-  'loudong' => 
+  'loudong' =>
   array (
     'version' => '1',
     'charset' => 'utf-8',
@@ -417,7 +414,7 @@ $config['aci_module'] = array (
     'modulePath' => 'adminpanel',
     'moduleCaption' => '楼栋信息',
     'description' => '由autoCodeigniter 自动生成的模块',
-    'fileList' => 
+    'fileList' =>
     array (
       0 => 'application/views/adminpanel/loudong/edit.php',
       1 => 'scripts/adminpanel/loudong/edit.js',
@@ -433,9 +430,9 @@ $config['aci_module'] = array (
     'system' => false,
     'coder' => '胡子锅',
     'website' => 'http://',
-    'moduleDetails' => 
+    'moduleDetails' =>
     array (
-      0 => 
+      0 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -443,7 +440,7 @@ $config['aci_module'] = array (
         'menu_name' => '管理楼栋信息',
         'caption' => '管理楼栋信息',
       ),
-      1 => 
+      1 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -451,7 +448,7 @@ $config['aci_module'] = array (
         'menu_name' => '楼栋信息列表',
         'caption' => '楼栋信息列表',
       ),
-      2 => 
+      2 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -459,7 +456,7 @@ $config['aci_module'] = array (
         'menu_name' => '新增',
         'caption' => '新增',
       ),
-      3 => 
+      3 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -467,7 +464,7 @@ $config['aci_module'] = array (
         'menu_name' => '修改',
         'caption' => '修改',
       ),
-      4 => 
+      4 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -475,7 +472,7 @@ $config['aci_module'] = array (
         'menu_name' => '选择弹窗',
         'caption' => '选择弹窗',
       ),
-      5 => 
+      5 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -483,7 +480,7 @@ $config['aci_module'] = array (
         'menu_name' => '删除单个',
         'caption' => '删除单个',
       ),
-      6 => 
+      6 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
@@ -491,7 +488,7 @@ $config['aci_module'] = array (
         'menu_name' => '删除多个',
         'caption' => '删除多个',
       ),
-      7 => 
+      7 =>
       array (
         'folder' => 'adminpanel',
         'controller' => 'loudong',
